@@ -10,7 +10,15 @@
   },
   "dependencies": {
     "gatsby": "^2.0.33",
+    "husky": "^1.3.0",
+    "prettier": "^1.15.3",
+    "pretty-quick": "^1.8.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }

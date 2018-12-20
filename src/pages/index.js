@@ -1,3 +1,9 @@
-import React from "react"
+import React from "react";
 
-export default () => <div>Hello world!</div>
+import FormPage from "./FormPage";
+
+export default () => (
+  <div style={{ color: `purple` }}>
+    <p>test</p>
+  </div>
+);
