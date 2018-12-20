@@ -9,6 +9,7 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "@material-ui/core": "^3.7.0",
     "gatsby": "^2.0.33",
     "husky": "^1.3.0",
     "prettier": "^1.15.3",

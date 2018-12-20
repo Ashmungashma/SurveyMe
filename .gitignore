@@ -3,7 +3,8 @@ target
 .idea
 .cache
 
-node_modules
+node_modules/
+
 .DS_components
 
 yarn.lock
